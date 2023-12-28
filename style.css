@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "PT Sans", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('https://wallpapercave.com/wp/wp2592721.jpg');
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 40px; /* Adjust the font size */
+    text-align: center;
+    margin-left: -35px;
+    color: #fff;
+}
+
+
+.input-description .spaced-text {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    margin-left: -35px;
+    margin-bottom: 20px;
+}
+
+.input-box {
+    position: relative;
+    width: 395px;
+    height: 45px;
+    background: transparent;
+    margin: 30px auto;
+}
+
+.input-box input {
+    width: calc(100% - 40px);
+    height: 100%;
+    text-align: center;
+    background: transparent;
+    border: 2px solid #a5a5a5;
+    border-radius: 45px;
+    font-size: 16px;
+    color: #757171f5;
+    padding: 13px 20px 13px 40px;
+    outline: none;
+}
+
+.input-box i {
+    position: absolute;
+    color: #fffffff5;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 37px;
+}
+
+.forgot-password {
+   
+    margin-top: -30px;
+}
+
+.forgot-password a {
+    display: inline-block;
+    width: 100px; /* Adjust width */
+    height: 17px; /* Adjust height */
+    color: #e0d8d8;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 13px;
+    margin-left: 250px;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
+
+
+.register-link {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.button,
+.g-signin2 {
+    width: 352px;
+    height: 45px;
+    margin-top: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 45px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button {
+    border: 1px solid #064e22;
+    color: #064e22;
+    background-color: transparent;
+}
+
+.button:hover {
+    background-color: #058536;
+    color: white;
+}
+
+.g-signin2 {
+    border: none;
+    color: white;
+    font-size: 14px;
+    background-color: black;
+}
+
+.g-signin2 img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
